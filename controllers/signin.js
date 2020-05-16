@@ -1,5 +1,6 @@
+// const cors = require("cors");
 
-
+// app.use(cors());
 
 const handleSignin = (req, res, db, bcrypt) => {
 	const { email, password } = req.body;
