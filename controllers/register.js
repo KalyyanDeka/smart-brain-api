@@ -1,5 +1,5 @@
-// const cors = require("cors");
-// app.use(cors());
+const cors = require("cors");
+app.use(cors());
 
 const handleRegister = (req, res, db, bcrypt) => {
 	const { email, password, name } = req.body;
